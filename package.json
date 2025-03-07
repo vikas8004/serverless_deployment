@@ -1,0 +1,17 @@
+{
+  "name": "serverless_architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "keywords": [],
+  "author": "vikas kumar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
